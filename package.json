@@ -1,17 +1,26 @@
 {
   "name": "moviebox-api",
-  "version": "4.2.0",
-  "description": "MovieBox REST API — auto-refreshing anonymous token, zero-buffer streaming",
-  "main": "server.js",
+  "version": "1.0.0",
+  "description": "MovieBox Homepage API Wrapper",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev":   "node --watch server.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "engines": {
-    "node": ">=18.0.0"
-  },
+  "keywords": [
+    "moviebox",
+    "api",
+    "nodejs",
+    "express"
+  ],
+  "author": "Mahabub",
+  "license": "MIT",
   "dependencies": {
-    "express":    "^4.19.2",
-    "node-fetch": "^3.3.2"
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
