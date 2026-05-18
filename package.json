@@ -1,14 +1,21 @@
 {
-  "name": "moviebox-api",
+  "name": "workspace",
   "version": "1.0.0",
-  "description": "Render Friendly MovieBox API",
   "main": "server.js",
-  "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.19.2"
+    "axios": "^1.11.0",
+    "axios-cookiejar-support": "^6.0.4",
+    "cheerio": "^1.1.2",
+    "express": "^4.21.2",
+    "tough-cookie": "^5.1.2"
   }
 }
+ 
