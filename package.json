@@ -1,21 +1,17 @@
 {
-  "name": "workspace",
-  "version": "1.0.0",
+  "name": "moviebox-api",
+  "version": "4.2.0",
+  "description": "MovieBox REST API — auto-refreshing anonymous token, zero-buffer streaming",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":   "node --watch server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
-    "axios": "^1.11.0",
-    "axios-cookiejar-support": "^6.0.4",
-    "cheerio": "^1.1.2",
-    "express": "^4.21.2",
-    "tough-cookie": "^5.1.2"
+    "express":    "^4.19.2",
+    "node-fetch": "^3.3.2"
   }
 }
- 
